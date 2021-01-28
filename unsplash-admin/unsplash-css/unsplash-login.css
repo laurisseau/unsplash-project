@@ -1,0 +1,99 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.real-form{
+    padding: 20px;
+    border: 1px solid #60afff;
+    margin-top: 300px;
+    text-align: center;.
+    
+}
+
+
+body{
+    height: 60vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    padding: 10px;
+    position: relative;
+    height: 55px;
+    overflow: hidden;
+}
+
+.form input{
+    border-top:30px;
+    width:100%;
+    height:105%;
+    color: #595f6e;
+    border:none;
+    outline:none;
+    
+}
+
+.form label {
+    position: absolute;
+    bottom: 9px;
+    left: 0%;
+    width: 100%;
+    height:105%;
+   pointer-events: none;
+    border-bottom: 1px solid black;
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left:0px;
+    bottom:-1px;
+    height: 100%;
+    width: 100%;
+    border-bottom:3px solid #5fa8d3;
+    transform: translateX(-100%);
+}
+
+.content-name{
+    position:absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all .3s ease;
+}
+
+.form input:focus + .label-name .content-name, 
+.form input:valid + .label-name .content-name{ 
+    margin-bottom:20px;
+    font-size: 14px;
+    color: #5fa8d3;
+}
+
+.form input:focus + .label-name::after, 
+.form input:valid + .label-name::after{
+    transform: translateX(0%);
+    transition: transform .3s ease;
+}
+
+
+
+button{
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding:10px 20px;
+    border-radius: 3px;
+    background-color: rgb(29, 107, 199);
+    
+    
+}
+
+button:hover{
+     background-color: rgb(67, 128, 199);
+    transition: .45s;
+}

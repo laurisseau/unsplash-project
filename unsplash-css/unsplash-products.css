@@ -1,0 +1,180 @@
+/*-----------PRODUCTS-----------*/
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 40%;
+}
+
+.pic{
+    position: relative;
+
+}
+
+img{ 
+    
+    transition: .5s ease;
+    border-radius: 3px;
+    widows: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.content{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+.content p{
+    color: black;
+    margin-left: 100px;
+    font-size: 16px;
+   
+}
+
+.content p:hover{
+    font-size: 16px;
+   
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.pic:hover img{
+    cursor: pointer;
+    opacity: .5;
+}
+
+.pic:hover .overlay{
+    opacity: 1;
+}
+
+
+/*-----------NEW-PRODUCTS-MEDIA-----------*/
+
+@media (min-width: 1200px){
+    
+    .content{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+    
+
+
+    .content p{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 23px;
+    text-align: center;
+    
+   
+}
+    
+    img{
+    height: 200px;
+    width:100%;
+    margin-bottom: 20px;
+    }
+    
+}
+
+
+@media (min-width: 1100px){
+    
+
+
+    .content p{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 23px;
+    text-align: center;
+    
+   
+}
+    
+    img{
+
+    height: 200px;
+    width:100%;
+    margin-bottom: 20px;
+    }
+    
+}
+
+@media (min-width: 576px){
+    
+
+
+    .content p{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 23px;
+    text-align: center;
+    
+   
+}
+    
+    img{
+    height: 200px;
+    width:100%;
+    margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width:700px){
+    
+
+
+    .content p{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 23px;
+    text-align: center;
+    
+   
+}
+    img{
+    
+    height: 200px;
+    width:100%;
+    margin-bottom: 20px;
+    }
+}
+
+

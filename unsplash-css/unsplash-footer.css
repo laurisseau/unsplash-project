@@ -1,0 +1,35 @@
+/*-----------FOOTER-----------*/
+
+footer{
+    position: relative;
+    border-top: 1px solid #343a40;
+    height: 100px;
+}
+
+footer p{
+    padding-top: 20px;
+    color:black;
+}
+
+footer ul{
+    position: absolute;
+    left: 1370px;
+    top: 20px;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul li a:hover{
+    color: #007bff;
+    transition: .3s;
+}
+
+footer ul li{
+    float: right;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+    

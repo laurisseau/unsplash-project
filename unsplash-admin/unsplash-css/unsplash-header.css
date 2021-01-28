@@ -1,0 +1,13 @@
+/*-------------HEADER----------*/
+
+header{
+    padding: 0% 100px;
+    height: 50px;
+    border-bottom: 1px solid #808080;
+    padding-top: 18px;
+}
+
+header p{
+    font-size: 25px;
+    margin-top: 24px;
+}

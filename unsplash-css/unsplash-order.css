@@ -1,0 +1,11 @@
+.cover h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 40%;
+}
+
+.cart{
+    margin-bottom: 100px;
+}

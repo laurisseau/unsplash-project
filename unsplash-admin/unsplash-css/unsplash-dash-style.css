@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.body{
+    display:grid;
+    padding: 2% 100px;
+    padding-bottom: 460px;
+    grid-template-columns: 300px auto;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #eee;
+    
+}
+
+/*-------------NAV GRID-1----------*/
+
+nav{
+  width: 200px;
+    
+}
+
+nav ul{
+    background-color: #2d2b32;
+    border: 1px solid #2d2b32;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    border-bottom: 1px solid black;
+  
+    line-height: 3;
+}
+
+nav ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #767676;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+/*-------------BODY GRID-2----------*/
+
+.grid-2{
+    
+    width: 100%;
+    margin-left: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-2 .box{
+    width: 31.623931623931625%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.grid-2 .box i{
+    font-size: 48px;
+    color: #0088cc;
+}
+
+.grid-2 .box p{
+    font-size: 20px;
+}
+
+.grid-2 .box p1{
+    color: #999;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.grid-2 .box i:hover{
+    color: #999;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.box p{
+    margin-top: 10px;
+   
+}
+
+/*----------FOOTER-------------*/
+footer{
+    border-top: 1px solid #808080;
+    padding:0% 20%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+footer p{
+    float: left;
+}

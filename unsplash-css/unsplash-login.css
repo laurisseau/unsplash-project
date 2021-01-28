@@ -1,0 +1,68 @@
+/*-----------LOG/REG OVERLAY-----------*/
+
+
+.btn-1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.btn-1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+
+.box{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid black;
+  
+}
+
+
+
+/*-----------NAV-HEADER-----------*/
+
+
+nav ul{  
+    margin-right: 11px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li{
+   text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color:black;
+    cursor: pointer
+} 
+
+nav ul li a{
+    color:black;
+   text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    text-decoration-line: none;
+    color: #007bff;
+    transition: .3s;
+
+}
+
+
+
+
